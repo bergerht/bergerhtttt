@@ -1,0 +1,17 @@
+.hovered {
+	display: none;
+	transition: ease-in-out all 1s;
+	background-color: black;
+	padding: 1%;
+	height: 100%;
+	width: 100%;
+}
+
+.hovered:hover {
+	display: inline-block;
+}
+
+.img {
+	width: 30%;
+	height: 30%;
+}
