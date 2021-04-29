@@ -4,7 +4,7 @@ module.exports = {
 			resolve: `gatsby-plugin-netlify-cms`,
 			options: {
 				manualInit: true,
-				modulePath: `./src/cms/cms.js`, // This needs to be relative to the .docz directory
+				modulePath: `../src/cms/cms.js`, // This needs to be relative to the .docz directory
 			},
 		},
 		"gatsby-theme-docz",
