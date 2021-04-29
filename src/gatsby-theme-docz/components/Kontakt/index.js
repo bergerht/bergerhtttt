@@ -44,86 +44,118 @@ export const Kontakt = () => {
     /> */}
 
 			{/* Strichmännchen insgesamt  */}
-			<Flex>
-				<Box>
-					<div>
+			<br />
+			<Flex
+				p='2'
+				sx={{
+					alignItems: "center",
+					justifyContent: "center",
+				}}
+			>
+				<Box
+					sx={{
+						alignItems: "center",
+						width: "100%",
+						justifyContent: "center",
+					}}
+				>
+					<div className='img'>
 						<a href='tel:+493438551287'>
-							<img src={telefon} className='img' alt='Telefonnummer' />
+							<img src={telefon} alt='Telefonnummer' />
 						</a>
-						<div>
+						<div className='hovered'>
 							<p>
 								<strong>Telefon:</strong>034385-51287
 							</p>
 						</div>
 					</div>
 
-					<div className='hovered'>
-						<p>
-							<strong>Handynummer:</strong> ???
-						</p>
+					<div className='img'>
+						<a href='tel:+493438551504'>
+							<img src={handy} alt='Handynummer' />
+						</a>
+						<div className='hovered'>
+							<p>
+								<strong>Handynummer:</strong> ???
+							</p>
+						</div>
 					</div>
-					<a href='tel:+493438551504'>
-						<img src={handy} alt='Handynummer' className='img' />
-					</a>
 
-					<div class='hovered'>
-						<p>
-							<strong>Postadresse:</strong> <br />
-							Berger Haustechnik GmbH
-							<br />
-							Böhlitzer Weg 2
-							<br /> 04668 Grimma
-						</p>
+					<div className='img'>
+						<div class='hovered'>
+							<p>
+								<strong>Postadresse:</strong> <br />
+								Berger Haustechnik GmbH
+								<br />
+								Böhlitzer Weg 2
+								<br /> 04668 Grimma
+							</p>
+						</div>
+						<img src={post} alt='Postadresse' />
 					</div>
-					<img src={post} alt='Postadresse' className='img' />
 				</Box>
 
-				<Box>
-					{" "}
-					<img src={strich} alt='Strichmännchen' width='100%' height='auto' />
+				<Box
+					sx={{
+						alignItems: "center",
+						flexGrow: "2",
+						justifyContent: "center",
+						flex: "1 auto 1",
+					}}
+				>
+					<div className='img' style-={{ width: "150%" }}>
+						<img src={strich} alt='Strichmännchen' />
+					</div>
 				</Box>
 
 				<Box>
 					{/* 3. Spalte */}
-					<div class='hovered'>
-						<p>
-							<strong>Mailadresse:</strong> <br />
-							bht@bergerht.de
-						</p>
+					<div className='img'>
+						<div class='hovered'>
+							<p>
+								<strong>Mailadresse:</strong> <br />
+								bht@bergerht.de
+							</p>
+						</div>
+
+						<a href='mailto:bht@bergerht.de'>
+							<img src={mail} alt='Mailadresse' />
+						</a>
 					</div>
 
-					<a href='mailto:bht@bergerht.de'>
-						<img src={mail} alt='Mailadresse' className='img' />
-					</a>
+					<div className='img'>
+						<div class='hovered'>
+							<p>
+								<strong>Fax:</strong> <br /> 034385-51484
+							</p>
+						</div>
 
-					<div class='hovered'>
-						<p>
-							<strong>Fax:</strong> <br /> 034385-51484
-						</p>
+						<a href='fax:+493438551484'>
+							<img src={fax} alt='Faxadresse' />
+						</a>
 					</div>
 
-					<a href='fax:+493438551484'>
-						<img src={fax} alt='Faxadresse' className='img' />
-					</a>
+					<div className='img'>
+						<div class='hovered'>
+							<p>
+								<strong>Adresse:</strong> <br />
+								Berger Haustechnik GmbH
+								<br />
+								Böhlitzer Weg 2
+								<br /> 04668 Grimma
+							</p>
+						</div>
 
-					<div class='hovered'>
-						<p>
-							<strong>Adresse:</strong> <br />
-							Berger Haustechnik GmbH
-							<br />
-							Böhlitzer Weg 2
-							<br /> 04668 Grimma
-						</p>
+						<img src={adresse} alt='Adresse' />
 					</div>
-
-					<img src={adresse} alt='Adresse' className='img' />
 				</Box>
 			</Flex>
 
+			<br />
 			<iframe
 				src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2496.871787534325!2d12.885181216134965!3d51.258269979595106!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47a7090d727bbe6b%3A0xc22fcc9f1b69325d!2sBerger%20Haustechnik%20GmbH!5e0!3m2!1sde!2sde!4v1618328007369!5m2!1sde!2sde'
 				width='100%'
-				height='400'
+				height='300'
 				style={{ borderTop: "0", marginBottom: "0" }}
 				allowfullscreen=''
 				loading='lazy'
