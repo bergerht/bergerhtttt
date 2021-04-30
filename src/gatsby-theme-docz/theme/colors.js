@@ -1,0 +1,12 @@
+export const white = "#FFFFFF";
+export const grayUltraLight = "#FCFBFA";
+export const grayExtraLight = "#F5F6F7";
+export const grayLight = "#cd0000";
+export const gray = "#67788a";
+export const grayDark = "#2D3747";
+export const grayExtraDark = "#1D2330";
+export const dark = "#13161F";
+export const blueLight = "#e9f2fa";
+export const blue = "#cd000";
+export const skyBlue = "#cd0000";
+export const negative = "#EB4D4B";

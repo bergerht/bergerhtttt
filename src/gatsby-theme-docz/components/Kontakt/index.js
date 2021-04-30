@@ -12,59 +12,20 @@ import "./style.css";
 export const Kontakt = () => {
 	return (
 		<div>
-			<h1>Kontakt</h1>
-			<p>
-				Wenn Sie im Raum Sachsen auf der Suche nach kompetenter Unterstützung im
-				Bereich der Haustechnik sind, bei denen keine sofortige Hilfe durch
-				einen Notdienst von Nöten ist, empfehlen wir Ihnen die Nutzung unseres
-				Kontaktformulars. Hier können Sie uns auf unkomplizierte Art und Weise
-				Ihre Kontaktdaten und weitere Informationen zu Ihrer Anfrage mitteilen.
-				Insbesondere wenn es sich um einen Terminwunsch für Arbeiten, ein
-				Beratungsgespräch zu Planungen und Wünschen im Sanitär-, Heizung-,
-				Kältetechnik- &amp; Lüftungsbereich im Raum Leipzig oder einfach nur
-				eine Frage handelt: Wir werden Ihre Anfrage schnellstmöglich bearbeiten
-				und uns dann umgehend bei Ihnen melden. Selbstverständlich werden all
-				Ihre Daten vertraulich behandelt.
-			</p>
-
-			{/* <hr
-        style={{
-            border: "#cd0000 solid 1px",
-            width: "70%",
-            margin: "auto",
-        }}
-    />
-    <hr
-        style={{
-            border: "#c9d75a solid 0.5px",
-            width: "70%",
-            margin: "auto",
-            marginTop: "2px",
-        }}
-    /> */}
-
-			{/* Strichmännchen insgesamt  */}
-			<br />
 			<Flex
-				p='2'
 				sx={{
 					alignItems: "center",
 					justifyContent: "center",
+					padding: "3% 0",
 				}}
 			>
-				<Box
-					sx={{
-						alignItems: "center",
-						width: "100%",
-						justifyContent: "center",
-					}}
-				>
+				<Box>
 					<div className='img'>
 						<a href='tel:+493438551287'>
-							<img src={telefon} alt='Telefonnummer' />
+							<img src={telefon} alt='Telefonnummer' className='imgx' />
 						</a>
-						<div className='hovered'>
-							<p>
+						<div>
+							<p className='hovered'>
 								<strong>Telefon:</strong>034385-51287
 							</p>
 						</div>
@@ -95,17 +56,15 @@ export const Kontakt = () => {
 					</div>
 				</Box>
 
-				<Box
-					sx={{
-						alignItems: "center",
-						flexGrow: "2",
-						justifyContent: "center",
-						flex: "1 auto 1",
-					}}
-				>
-					<div className='img' style-={{ width: "150%" }}>
+				<Box sx={{ margin: "1%" }}>
+					<div className='imgx'>
 						<img src={strich} alt='Strichmännchen' />
 					</div>
+					{/* <img
+						src={strich}
+						alt='Strichmännchen'
+						style-={{ width: "100%", height: "auto" }}
+					/> */}
 				</Box>
 
 				<Box>
