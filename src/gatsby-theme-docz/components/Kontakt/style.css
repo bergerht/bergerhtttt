@@ -20,9 +20,6 @@
 	display: block;
 	cursor: pointer;
 	top: -5px;
-	.imgx {
-		transform: translateY(2px);
-	}
 }
 
 .img {

@@ -32,13 +32,13 @@ export default merge(typography, {
 	fonts: {
 		body: "Montserrat, sans-serif",
 		heading: "Montserrat, sans-serif",
-		monospace: "Menlo, monospace",
+		monospace: "Montserrat, sans-serif",
 	},
 	fontSizes: [12, 14, 16, 20, 24, 32, 48, 64],
 	fontWeights: {
-		body: 400,
-		heading: 700,
-		bold: 700,
+		body: 300,
+		heading: 500,
+		bold: 500,
 	},
 	lineHeights: {
 		body: 1.6,

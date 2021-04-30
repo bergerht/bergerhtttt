@@ -34,9 +34,7 @@ const styles = {
 	h6: {
 		fontSize: 0.8,
 	},
-	p: {
-		fontSize: 1,
-	},
+
 	li: {
 		marginBottom: 1,
 	},

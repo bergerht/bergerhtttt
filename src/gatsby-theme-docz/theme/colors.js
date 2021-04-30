@@ -10,3 +10,5 @@ export const blueLight = "#e9f2fa";
 export const blue = "#cd000";
 export const skyBlue = "#cd0000";
 export const negative = "#EB4D4B";
+export const green = "#c9d75a";
+export const red = "#cd0000";
