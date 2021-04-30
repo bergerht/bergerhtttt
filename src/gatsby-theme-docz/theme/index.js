@@ -41,8 +41,8 @@ export default merge(typography, {
 		bold: 500,
 	},
 	lineHeights: {
-		body: 1.6,
-		heading: 1.125,
+		body: 1.7,
+		heading: 2,
 	},
 	letterSpacings: {
 		body: "normal",
