@@ -1,15 +1,16 @@
 {
-	"name": "Berger Haustechnik GmbH",
+	"name": "berger-haustechnik-gmbh",
 	"author": "Gerald Berg homepage@bergerht.de",
 	"version": "0.1.0",
-	"description": "Haustechnik aus Sachsen",
+	"description": "Easily spin up a static documentation site with Docz and Netlify CMS",
 	"license": "MIT",
 	"keywords": [
 		"haustechnik",
-		"sanitär",
 		"lüftung",
 		"heizung",
-		"installation"
+		"sanitär",
+		"kälte",
+		"klima"
 	],
 	"scripts": {
 		"develop": "docz dev",
@@ -18,7 +19,6 @@
 	},
 	"main": "index.js",
 	"dependencies": {
-		"@emotion/react": "^11.1.5",
 		"docz": "^2.3.1",
 		"gatsby": "^2.30.3",
 		"gatsby-plugin-netlify-cms": "^4.1.39",

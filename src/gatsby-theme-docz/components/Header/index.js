@@ -1,9 +1,9 @@
 /** @jsx jsx */
-import { jsx, Box, Flex, useColorMode } from "theme-ui";
+import { jsx, Box, useColorMode } from "theme-ui";
 import { useConfig, useCurrentDoc } from "docz";
 
 import * as styles from "./styles";
-import { Edit, Menu, Sun, Github } from "../Icons";
+import { Edit, Menu } from "../Icons";
 import { Logo } from "../Logo";
 
 export const Header = (props) => {
