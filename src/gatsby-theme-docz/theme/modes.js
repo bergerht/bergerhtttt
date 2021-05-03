@@ -11,7 +11,7 @@ export const light = {
 	background: colors.white,
 	border: colors.red,
 	sidebar: {
-		bg: colors.white,
+		bg: colors.green,
 		navGroup: colors.grayDark,
 		navLink: colors.grayDark,
 		navLinkActive: colors.red,

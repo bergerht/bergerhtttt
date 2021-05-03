@@ -30,7 +30,7 @@ export const wrapper = ({ open }) => ({
 	zIndex: 1,
 	minWidth: 0,
 	maxHeight: "100vh",
-	borderRight: (t) => `1px solid ${t.colors.border}`,
+	borderRight: (t) => `2px solid ${t.colors.border}`,
 	overflow: "auto",
 	WebkitOverflowScrolling: "touch",
 	bg: "sidebar.bg",

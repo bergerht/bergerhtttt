@@ -38,6 +38,9 @@ const styles = {
 	li: {
 		marginBottom: 1,
 	},
+	p: {
+		fontSize: 2,
+	},
 	blockquote: {
 		my: 4,
 		mx: 0,

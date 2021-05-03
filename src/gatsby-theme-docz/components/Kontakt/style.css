@@ -1,13 +1,16 @@
 .hovered {
 	display: none;
-	transition: ease-in-out all 2s;
+	transition: all 2s ease-in-out;
 	background-color: white;
-	padding: 2%;
+	margin: 2%;
+	padding: 1% 2%;
 	color: #cd0000;
 	z-index: 5;
-	text-align: center;
+	text-align: left;
 	border-radius: 5px;
-	border: solid 2px #cd0000;
+	/* border: solid 2px #cd0000; */
+	position: absolute;
+	box-shadow: 0 0 1em #cccccc;
 }
 
 .imgx {
@@ -19,20 +22,34 @@
 .imgx:hover + .hovered {
 	display: block;
 	cursor: pointer;
-	top: -5px;
 }
 
-.img {
+.imgy:hover + .hovered {
+	display: block;
+	cursor: pointer;
+}
+
+a:hover + .hovered {
+	display: inline-block;
+	cursor: pointer;
+}
+
+a.x {
+	text-align: center;
+}
+
+.imgy {
 	width: 50%;
 	height: auto;
-	justify-content: center;
+	transition: ease-in-out all 2s;
+	align-items: center;
+	justify-self: center;
+	justify-items: center;
 	margin: auto;
 }
 
-.img > a > img,
-.img > img {
-	width: 100%;
-	height: 100%;
+.imgy:hover {
+	top: -1px;
 }
 
 .imgx > img {

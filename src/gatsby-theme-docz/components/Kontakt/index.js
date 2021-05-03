@@ -16,98 +16,105 @@ export const Kontakt = () => {
 				sx={{
 					alignItems: "center",
 					justifyContent: "center",
-					padding: "3% 0",
+					padding: "5% 0",
 				}}
 			>
-				
-				<Box>
-					<div className='img'>
-						<a href='tel:+493438551287'>
-							<img src={telefon} alt='Telefonnummer' className='imgx' />
-						</a>
-						<div>
-							<p className='hovered'>
-								<strong>Telefon:</strong>034385-51287
-							</p>
-						</div>
-					</div>
-
-					<div className='img'>
-						<a href='tel:+493438551504'>
-							<img src={handy} alt='Handynummer' />
+				<Box
+					sx={{
+						alignItems: "center",
+						justifyContent: "center",
+					}}
+				>
+					<Flex>
+						<a href='tel:+493438551287' className='x'>
+							<img src={telefon} alt='Telefonnummer' className='imgy' />
 						</a>
 						<div className='hovered'>
-							<p>
-								<strong>Handynummer:</strong> ???
-							</p>
+							<strong>Telefon:</strong> <br />
+							034385-51287
 						</div>
-					</div>
+					</Flex>
 
-					<div className='img'>
-						<div class='hovered'>
-							<p>
-								<strong>Postadresse:</strong> <br />
-								Berger Haustechnik GmbH
-								<br />
-								Böhlitzer Weg 2
-								<br /> 04668 Grimma
-							</p>
+					<Flex>
+						<a href='tel:+493438551504' className='x'>
+							<img src={handy} alt='Handynummer' className='imgy' />
+						</a>
+						<div className='hovered'>
+							<strong>Handynummer:</strong> <br /> ???
 						</div>
-						<img src={post} alt='Postadresse' />
-					</div>
+					</Flex>
+
+					<Flex
+						sx={{
+							alignItems: "center",
+							justifyContent: "center",
+						}}
+					>
+						<img src={post} alt='Postadresse' className='imgy' />
+						<div class='hovered'>
+							<strong>Postadresse:</strong> <br />
+							Berger Haustechnik GmbH
+							<br />
+							Mutzschen
+							<br />
+							Böhlitzer Weg 2
+							<br /> 04668 Grimma
+						</div>
+					</Flex>
 				</Box>
 
-				<Box sx={{ margin: "1%" }}>
+				<Box
+					sx={{
+						alignItems: "center",
+						justifyContent: "center",
+						justifyItems: "center",
+						margin: "2%",
+					}}
+				>
 					<div className='imgx'>
 						<img src={strich} alt='Strichmännchen' />
 					</div>
-					{/* <img
-						src={strich}
-						alt='Strichmännchen'
-						style-={{ width: "100%", height: "auto" }}
-					/> */}
 				</Box>
 
-				<Box>
+				<Box
+					sx={{
+						alignItems: "center",
+						justifyContent: "center",
+						justifyItems: "center",
+					}}
+				>
 					{/* 3. Spalte */}
-					<div className='img'>
-						<div class='hovered'>
-							<p>
-								<strong>Mailadresse:</strong> <br />
-								bht@bergerht.de
-							</p>
-						</div>
-
-						<a href='mailto:bht@bergerht.de'>
-							<img src={mail} alt='Mailadresse' />
+					<Flex>
+						<a href='mailto:bht@bergerht.de' className='x'>
+							<img src={mail} alt='Mailadresse' className='imgy' />
 						</a>
-					</div>
-
-					<div className='img'>
 						<div class='hovered'>
-							<p>
-								<strong>Fax:</strong> <br /> 034385-51484
-							</p>
+							<strong>Mailadresse:</strong> <br />
+							bht@bergerht.de
 						</div>
+					</Flex>
 
-						<a href='fax:+493438551484'>
-							<img src={fax} alt='Faxadresse' />
+					<Flex>
+						<a href='fax:+493438551484' className='x'>
+							<img src={fax} alt='Faxadresse' className='imgy' />
 						</a>
-					</div>
-
-					<div className='img'>
 						<div class='hovered'>
-							<p>
-								<strong>Adresse:</strong> <br />
-								Berger Haustechnik GmbH
-								<br />
-								Böhlitzer Weg 2
-								<br /> 04668 Grimma
-							</p>
+							<strong>Fax:</strong> <br /> 034385-51484
 						</div>
+					</Flex>
 
-						<img src={adresse} alt='Adresse' />
-					</div>
+					<Flex>
+						<img src={adresse} alt='Adresse' className='imgy' />
+						<div class='hovered'>
+							<strong>Adresse:</strong> <br />
+							Berger Haustechnik GmbH
+							<br />
+							Mutzschen
+							<br />
+							Böhlitzer Weg 2
+							<br /> 04668 Grimma
+						</div>
+					</Flex>
 				</Box>
 			</Flex>
 
