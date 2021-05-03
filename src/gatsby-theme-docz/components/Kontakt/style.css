@@ -39,7 +39,8 @@ a.x {
 }
 
 .imgy {
-	width: 50%;
+	width: 70%;
+	margin: 3%;
 	height: auto;
 	transition: ease-in-out all 2s;
 	align-items: center;
@@ -50,6 +51,15 @@ a.x {
 
 .imgy:hover {
 	top: -1px;
+}
+
+.r {
+	right: 5%;
+	text-align: right !important;
+}
+
+.l {
+	left: 5%;
 }
 
 .imgx > img {
