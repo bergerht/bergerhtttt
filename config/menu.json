@@ -1,7 +1,13 @@
 {
-	"menuItems": [
-		{
-			"name": "Leistungen"
-		}
-	]
+  "menuItems": [
+    {
+      "name": "Zusammenarbeit"
+    },
+    {
+      "name": "Leistungen"
+    },
+    {
+      "name": "Informationen"
+    }
+  ]
 }
