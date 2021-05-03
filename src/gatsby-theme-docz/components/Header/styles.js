@@ -15,7 +15,7 @@ export const innerContainer = {
 	px: 2,
 	position: "relative",
 	justifyContent: "center",
-	height: 80,
+	height: 100,
 };
 
 export const menuIcon = {
@@ -39,7 +39,7 @@ export const menuButton = {
 export const headerButton = {
 	...mixins.centerAlign,
 	outline: "none",
-	p: "12px",
+	p: "0px",
 	border: "none",
 	borderRadius: 9999,
 	bg: "header.button.bg",
@@ -53,10 +53,10 @@ export const editButton = {
 	...mixins.centerAlign,
 	position: "absolute",
 	bottom: -40,
-	right: 30,
+	right: 20,
 	bg: "transparent",
 	color: "muted",
-	fontSize: 1,
+	fontSize: 2,
 	textDecoration: "none",
 	borderRadius: "radius",
 };

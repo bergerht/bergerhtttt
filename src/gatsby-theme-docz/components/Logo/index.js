@@ -9,7 +9,7 @@ export const Logo = () => (
 			<img
 				src={logo}
 				alt='Berger Haustechnik Logo'
-				style={{ height: "100%", width: "auto", padding: "0%" }}
+				style={{ height: "70px", width: "auto", padding: "2%" }}
 			/>
 		</Link>
 	</Flex>
