@@ -19,6 +19,7 @@ export const Kontakt = () => {
 					padding: "3% 0",
 				}}
 			>
+				
 				<Box>
 					<div className='img'>
 						<a href='tel:+493438551287'>
