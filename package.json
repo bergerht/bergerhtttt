@@ -1,16 +1,13 @@
 {
-	"name": "berger-haustechnik-gmbh",
-	"author": "Gerald Berg homepage@bergerht.de",
-	"version": "0.1.0",
-	"description": "Easily spin up a static documentation site with Docz and Netlify CMS",
+	"name": "gatsby-theme-docz",
+	"version": "2.3.1",
+	"description": "Gatsby theme created to use Docz",
 	"license": "MIT",
+	"author": "Pedro Nauck (pedronauck@gmail.com)",
 	"keywords": [
-		"haustechnik",
-		"lüftung",
-		"heizung",
-		"sanitär",
-		"kälte",
-		"klima"
+		"gatsby",
+		"gatsby-theme",
+		"docz"
 	],
 	"scripts": {
 		"develop": "docz dev",
