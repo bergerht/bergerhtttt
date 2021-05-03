@@ -42,7 +42,7 @@ export default merge(typography, {
 	},
 	lineHeights: {
 		body: 1.7,
-		heading: 2,
+		heading: 1,
 	},
 	letterSpacings: {
 		body: "normal",
