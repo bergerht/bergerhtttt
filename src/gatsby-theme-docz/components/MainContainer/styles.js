@@ -8,7 +8,7 @@ export const container = {
 	px: 4,
 	variant: "styles.Container",
 	[media.tablet]: {
-		py: 5,
+		py: 7,
 		px: 4,
 		pt: 5,
 	},
