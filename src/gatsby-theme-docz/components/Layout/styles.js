@@ -14,6 +14,5 @@ export const wrapper = {
 	minHeight: "100vh",
 	[media.tablet]: {
 		display: "block",
-		textAlign: "center",
 	},
 };
