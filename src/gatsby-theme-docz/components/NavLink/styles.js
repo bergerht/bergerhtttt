@@ -3,7 +3,7 @@ export const link = {
 	display: "block",
 	color: "sidebar.navGroup",
 	textDecoration: "none",
-	fontSize: 2,
+	fontSize: 1,
 	"&.active": {
 		color: "sidebar.navLinkActive",
 	},
@@ -12,7 +12,7 @@ export const link = {
 export const smallLink = {
 	...link,
 	ml: 3,
-	fontSize: 1,
+	fontSize: 0.9,
 	position: "relative",
 	color: "sidebar.tocLink",
 	"&.active": {

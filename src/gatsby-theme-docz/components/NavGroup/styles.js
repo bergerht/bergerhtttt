@@ -24,4 +24,5 @@ export const chevron = ({ active }) => ({
 	transform: `rotateX(${active ? 180 : 0}deg)`,
 	transformOrigin: "center",
 	transition: "transform .3s ease-in-out",
+	color: "sidebar.navLinkActive",
 });
