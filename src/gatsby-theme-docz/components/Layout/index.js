@@ -40,7 +40,7 @@ export const Layout = ({ children }) => {
 						fontSize: "10px",
 						justifyContent: "center",
 						fontFamily: "'Montserrat', sans-serif",
-						display: "block",
+
 						color: "black",
 					}}
 					buttonText='Zustimmen'
