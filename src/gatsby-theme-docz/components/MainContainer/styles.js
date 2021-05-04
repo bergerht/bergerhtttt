@@ -11,9 +11,4 @@ export const container = {
 		py: 5,
 		px: 4,
 	},
-	[media.mobile]: {
-		py: 7,
-		px: 4,
-		padding: 2,
-	},
 };

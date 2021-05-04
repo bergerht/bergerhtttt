@@ -8,6 +8,7 @@ import strich from "./strich_kontakt.svg";
 import { Flex, Box } from "theme-ui";
 import React from "react";
 import "./style.css";
+import * as styles from "./styles";
 
 export const Kontakt = () => {
 	return (
@@ -82,13 +83,21 @@ export const Kontakt = () => {
 
 				<Box
 					style={{
-						width: "70%",
-
-						justifyContent: "center",
+						height: "50%",
+						width: "100%",
 					}}
 				>
 					<div className='imgx'>
-						<img src={strich} alt='Strichmännchen' />
+						<img
+							src={strich}
+							alt='Strichmännchen'
+							style={{
+								// height: "50%",
+								width: "80%",
+
+								display: "flex",
+							}}
+						/>
 					</div>
 				</Box>
 
