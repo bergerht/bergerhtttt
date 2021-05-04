@@ -23,6 +23,7 @@ export const menuIcon = {
 	position: "absolute",
 	top: "calc(100% + 10px)",
 	left: 30,
+	marginBottom: 3,
 
 	[media.tablet]: {
 		display: "block",
@@ -32,14 +33,14 @@ export const menuIcon = {
 export const menuButton = {
 	...mixins.ghostButton,
 	color: "header.text",
-	opacity: 0.5,
+	opacity: 1,
 	cursor: "pointer",
 };
 
 export const headerButton = {
 	...mixins.centerAlign,
 	outline: "none",
-	p: "0px",
+	p: "10px",
 	border: "none",
 	borderRadius: 9999,
 	bg: "header.button.bg",

@@ -14,17 +14,25 @@ export const Kontakt = () => {
 		<div>
 			<Flex
 				sx={{
-					alignItems: "center",
+					// alignItems: "center",
 					justifyContent: "center",
-					padding: "5% 3%",
+					padding: "5% 0%",
 				}}
 			>
 				<Box
 					style={{
 						margin: "0% 2%",
+						width: "100%",
+						justifyContent: "center",
 					}}
 				>
-					<Flex>
+					<Flex
+						style={{
+							margin: "0% 2%",
+							width: "100%",
+							justifyContent: "center",
+						}}
+					>
 						<a href='tel:+493438551287' className='x'>
 							<img src={telefon} alt='Telefonnummer' className='imgy' />
 						</a>
@@ -34,7 +42,13 @@ export const Kontakt = () => {
 						</div>
 					</Flex>
 
-					<Flex>
+					<Flex
+						style={{
+							margin: "0% 2%",
+							width: "100%",
+							justifyContent: "center",
+						}}
+					>
 						<a href='tel:+493438551504' className='x'>
 							<img src={handy} alt='Handynummer' className='imgy' />
 						</a>
@@ -43,8 +57,16 @@ export const Kontakt = () => {
 						</div>
 					</Flex>
 
-					<Flex>
-						<img src={post} alt='Postadresse' className='imgy' />
+					<Flex
+						style={{
+							margin: "0% 2%",
+							width: "100%",
+							justifyContent: "center",
+						}}
+					>
+						<a href='#maps' className='x'>
+							<img src={post} alt='Postadresse' className='imgy' />
+						</a>
 						<div class='hovered l '>
 							<strong>Postadresse:</strong> <br />
 							Berger Haustechnik GmbH
@@ -60,6 +82,8 @@ export const Kontakt = () => {
 				<Box
 					style={{
 						margin: "0% 2%",
+						width: "100%",
+						justifyContent: "center",
 					}}
 				>
 					<div className='imgx'>
@@ -70,10 +94,17 @@ export const Kontakt = () => {
 				<Box
 					style={{
 						margin: "0% 2%",
+						width: "100%",
 					}}
 				>
 					{/* 3. Spalte */}
-					<Flex>
+					<Flex
+						style={{
+							margin: "0% 2%",
+							width: "100%",
+							justifyContent: "center",
+						}}
+					>
 						<a href='mailto:bht@bergerht.de' className='x'>
 							<img src={mail} alt='Mailadresse' className='imgy' />
 						</a>
@@ -83,7 +114,13 @@ export const Kontakt = () => {
 						</div>
 					</Flex>
 
-					<Flex>
+					<Flex
+						style={{
+							margin: "0% 2%",
+							width: "100%",
+							justifyContent: "center",
+						}}
+					>
 						<a href='fax:+493438551484' className='x'>
 							<img src={fax} alt='Faxadresse' className='imgy' />
 						</a>
@@ -93,12 +130,15 @@ export const Kontakt = () => {
 					</Flex>
 
 					<Flex
-						sx={{
-							alignItems: "center",
+						style={{
+							margin: "0% 2%",
+							width: "100%",
 							justifyContent: "center",
 						}}
 					>
-						<img src={adresse} alt='Adresse' className='imgy' />
+						<a href='#maps' className='x'>
+							<img src={adresse} alt='Adresse' className='imgy' />
+						</a>
 						<div class='hovered r'>
 							<strong>Adresse:</strong> <br />
 							Berger Haustechnik GmbH
@@ -113,6 +153,17 @@ export const Kontakt = () => {
 			</Flex>
 
 			<br />
+			<iframe
+				src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2496.871787534325!2d12.885181216134965!3d51.258269979595106!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47a7090d727bbe6b%3A0xc22fcc9f1b69325d!2sBerger%20Haustechnik%20GmbH!5e0!3m2!1sde!2sde!4v1618328007369!5m2!1sde!2sde'
+				width='100%'
+				height='300'
+				style={{ borderTop: "0", marginBottom: "0" }}
+				allowfullscreen=''
+				loading='lazy'
+				aria-hidden='false'
+				title='GoogleMaps'
+				id='maps'
+			></iframe>
 		</div>
 	);
 };
