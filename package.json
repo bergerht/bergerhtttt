@@ -1,13 +1,16 @@
 {
-	"name": "gatsby-theme-docz",
+	"name": "Berger Haustechnik GmbH",
 	"version": "2.3.1",
-	"description": "Gatsby theme created to use Docz",
+	"description": "Haustechnik Heizung Klima Lüftung Sachsen in Sachsen",
 	"license": "MIT",
 	"author": "Pedro Nauck (pedronauck@gmail.com)",
 	"keywords": [
-		"gatsby",
-		"gatsby-theme",
-		"docz"
+		"haustechnik",
+		"sachsen",
+		"klima",
+		"sanitär",
+		"kälte",
+		"heizung"
 	],
 	"scripts": {
 		"develop": "docz dev",
