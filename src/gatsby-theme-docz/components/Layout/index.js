@@ -33,27 +33,27 @@ export const Layout = ({ children }) => {
 					enableDeclineButton
 					flipButtons
 					location='bottom'
-					buttonText='Zustimmen'
-					declineButtonStyle={{
-						background: "#1d1d1f",
-						border: "solid #f2f2f2 1px",
-						color: "#f2f2f2",
-						fontSize: "8px",
-					}}
 					style={{
 						background: "#1d1d1f",
 						alignItems: "center",
 						fontSize: "10px",
 					}}
-					declineButtonText='Ablehnen'
+					buttonText='Zustimmen'
 					buttonStyle={{
-						backgroundColor: "#f2f2f2",
-						color: "#1d1d1f",
-						border: "solid #cd0000 2px",
+						backgroundColor: "#c9d75a",
+						color: "black",
+						border: "solid black 2px",
 						fontSize: "13px",
 						fontWeight: "500",
 						fontFamily: "'Montserrat', sans-serif",
 						padding: "10px",
+					}}
+					declineButtonText='Ablehnen'
+					declineButtonStyle={{
+						background: "black",
+						border: "solid #c9d75a 1px",
+						color: "#c9d75a",
+						fontSize: "8px",
 					}}
 					cookieName='gatsby-gdpr-google-analytics'
 				>
