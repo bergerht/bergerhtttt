@@ -33,7 +33,7 @@ export const wrapper = ({ open }) => ({
 	borderRight: (t) => `2px solid ${t.colors.border}`,
 	overflow: "auto",
 	WebkitOverflowScrolling: "touch",
-	bg: "sidebar.bg",
+	bg: "white",
 
 	[media.tablet]: {
 		zIndex: 9999,

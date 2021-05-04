@@ -22,7 +22,7 @@ export const menuIcon = {
 	display: "none",
 	position: "absolute",
 	top: "calc(100% + 10px)",
-	left: 30,
+	left: 48,
 	marginBottom: 3,
 
 	[media.tablet]: {

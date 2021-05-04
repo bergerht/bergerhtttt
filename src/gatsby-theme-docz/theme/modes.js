@@ -9,7 +9,7 @@ export const light = {
 	muted: colors.gray,
 	link: colors.green,
 	background: colors.white,
-	border: colors.red,
+	border: colors.green,
 	sidebar: {
 		bg: colors.green,
 		navGroup: colors.grayDark,

@@ -17,6 +17,7 @@ export const Kontakt = () => {
 					// alignItems: "center",
 					justifyContent: "center",
 					padding: "5% 0%",
+					margin: "5% 1%",
 				}}
 			>
 				<Box

@@ -17,7 +17,7 @@ const styles = {
 		},
 	},
 	h1: {
-		fontSize: 5,
+		fontSize: 4,
 	},
 	h2: {
 		fontSize: 4,
