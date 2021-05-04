@@ -34,18 +34,21 @@ export const Layout = ({ children }) => {
 					flipButtons
 					location='bottom'
 					style={{
-						background: "#1d1d1f",
+						background: "white",
+						borderTop: "2px solid #c9d75a",
 						alignItems: "center",
 						fontSize: "10px",
 						justifyContent: "center",
 						fontFamily: "'Montserrat', sans-serif",
 						display: "block",
+						color: "black",
 					}}
 					buttonText='Zustimmen'
 					buttonStyle={{
 						backgroundColor: "#c9d75a",
 						color: "black",
-						border: "solid black 2px",
+						boxShadow: "0 0 5px #cccccc",
+
 						fontSize: "13px",
 						fontWeight: "500",
 						fontFamily: "'Montserrat', sans-serif",
@@ -53,11 +56,12 @@ export const Layout = ({ children }) => {
 					}}
 					declineButtonText='Ablehnen'
 					declineButtonStyle={{
-						background: "black",
+						background: "white",
 						border: "solid #c9d75a 1px",
 						color: "#c9d75a",
 						fontSize: "13px",
 						padding: "10px",
+
 						fontFamily: "'Montserrat', sans-serif",
 					}}
 				>
