@@ -94,7 +94,6 @@ export const Kontakt = () => {
 							style={{
 								// height: "50%",
 								width: "80%",
-
 								display: "flex",
 							}}
 						/>
