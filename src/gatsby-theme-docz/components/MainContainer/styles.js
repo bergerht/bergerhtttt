@@ -8,8 +8,15 @@ export const container = {
 	px: 4,
 	variant: "styles.Container",
 	[media.tablet]: {
+		py: 5,
+		px: 4,
+	},
+	[media.tablet]: {
+		py: 5,
+		px: 4,
+	},
+	[media.mobile]: {
 		py: 7,
 		px: 4,
-		pt: 5,
 	},
 };
