@@ -2,7 +2,7 @@
 import { Fragment, forwardRef, useState, useRef, useEffect } from "react";
 import { Global } from "@emotion/react";
 import { jsx, Box } from "theme-ui";
-import { useMenus, useDocs, useCurrentDoc } from "docz";
+import { useMenus, useCurrentDoc } from "docz";
 
 import * as styles from "./styles";
 import { NavSearch } from "../NavSearch";
@@ -21,7 +21,7 @@ export const Sidebar = forwardRef(function Sidebar(props, ref) {
 		if (ref.current && currentDocRef.current) {
 			ref.current.scrollTo(0, currentDocRef.current.offsetTop);
 		}
-	}, []);
+	});
 	return (
 		<Fragment>
 			<Box onClick={props.onClick} sx={styles.overlay(props)}>
@@ -29,7 +29,7 @@ export const Sidebar = forwardRef(function Sidebar(props, ref) {
 			</Box>
 			<Box ref={ref} sx={styles.wrapper(props)} data-testid='sidebar'>
 				<NavSearch
-					placeholder='Suchbegriff...'
+					placeholder='Suche...'
 					value={query}
 					onChange={handleChange}
 				/>

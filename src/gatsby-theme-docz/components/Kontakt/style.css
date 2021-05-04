@@ -4,7 +4,7 @@
 	background-color: white;
 	margin: 2%;
 	padding: 1% 2%;
-	color: black;
+	color: #cd0000;
 	z-index: 5;
 	text-align: left;
 	border-radius: 5px;
@@ -40,7 +40,7 @@ a.x {
 }
 
 .imgy {
-	width: 70%;
+	width: 60%;
 	margin: 3%;
 	height: auto;
 	transition: ease-in-out all 2s;
