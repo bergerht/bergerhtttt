@@ -23,11 +23,13 @@
 		"@popperjs/core": "^2.9.2",
 		"docz": "^2.3.1",
 		"gatsby": "^2.30.3",
+		"gatsby-plugin-google-gtag": "^2.4.0",
 		"gatsby-plugin-netlify-cms": "^4.1.39",
 		"gatsby-theme-docz": "^2.3.1-alpha.0",
 		"netlify-cms-app": "^2.11.18",
 		"prop-types": "^15.7.2",
 		"react": "^16.14.0",
+		"react-cookie-consent": "^6.2.3",
 		"react-dom": "^16.14.0"
 	},
 	"homepage": "https://bergerht.de"
