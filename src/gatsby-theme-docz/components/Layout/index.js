@@ -37,6 +37,9 @@ export const Layout = ({ children }) => {
 						background: "#1d1d1f",
 						alignItems: "center",
 						fontSize: "10px",
+						justifyContent: "center",
+						fontFamily: "'Montserrat', sans-serif",
+						display: "block",
 					}}
 					buttonText='Zustimmen'
 					buttonStyle={{
@@ -53,9 +56,10 @@ export const Layout = ({ children }) => {
 						background: "black",
 						border: "solid #c9d75a 1px",
 						color: "#c9d75a",
-						fontSize: "8px",
+						fontSize: "13px",
+						padding: "10px",
+						fontFamily: "'Montserrat', sans-serif",
 					}}
-					cookieName='gatsby-gdpr-google-analytics'
 				>
 					Diese Website speichert Cookies auf Ihrem Computer. Wir verwenden
 					diese Informationen, um Ihr Surf-Erlebnis zu verbessern und anzupassen
