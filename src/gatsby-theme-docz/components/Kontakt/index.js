@@ -51,11 +51,14 @@ export const Kontakt = () => {
 							justifyContent: "center",
 						}}
 					>
-						<a href='tel:+493438551504' className='x'>
-							<img src={handy} alt='Handynummer' className='imgy' />
+						<a
+							href='mailto:bht@bergerht.de?subject=Kundendienstanfrage&amp;body=Sehr%20geehrte%20Damen%20und%20Herren,%0D%0A%0D%0A%0D%0ABitte%20beschreiben%20Sie%20das%20Problem%20so%20konkret%20wie%20nötig.%20Fotografieren%20Sie,%20wenn%20es%20der%20Beschreibung%20dient,%20den%20Schaden%20und%20hängen%20die%20Bilder%20der%20Mail%20an.%0D%0A%0D%0AProblem:%0D%0A%0D%0ABeschreibung:%0D%0A%0D%0AAnhang:%0D%0A%0D%0A%0D%0A%0D%0AMit%20freundlichen%20Gruessen,%0D%0A%0D%0ATelefonnummer:'
+							className='x'
+						>
+							<img src={handy} alt='Kundendienstanfrage' className='imgy' />
 						</a>
 						<div className='hovered l'>
-							<strong>Handynummer:</strong> <br /> ???
+							<strong>Kundendienstanfrage:</strong> <br /> per Mail
 						</div>
 					</Flex>
 
