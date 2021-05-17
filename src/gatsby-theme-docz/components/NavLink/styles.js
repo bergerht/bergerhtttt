@@ -7,6 +7,9 @@ export const link = {
 	"&.active": {
 		color: "sidebar.navLinkActive",
 	},
+	"&::first-letter": {
+		visibility: "hidden",
+	},
 };
 
 export const smallLink = {
