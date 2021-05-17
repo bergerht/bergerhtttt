@@ -3,15 +3,25 @@
 	transition: all 2s ease-in-out;
 	background-color: white;
 	margin: 2%;
-	padding: 1% 2%;
+	padding: 2%;
 	color: #cd0000;
 	z-index: 5;
 	text-align: left;
 	border-radius: 5px;
 	/* border: solid 2px #cd0000; */
 	position: absolute;
+
 	box-shadow: 0 0 1em #cccccc;
 	-webkit-box-shadow: 0 0 1em #cccccc;
+}
+
+.centered {
+	text-align: center;
+}
+
+.ll {
+	left: 50%;
+	transform: translateX(-50%);
 }
 
 .imgx {

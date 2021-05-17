@@ -10,12 +10,12 @@ import "../Kontakt/style.css";
 
 export const Leistungen = () => {
 	return (
-		<Flex style={{ margin: "3%" }}>
+		<Flex style={{ margin: "3% 3% 5% 3%", paddingBottom: "10%" }}>
 			<Box style={{ margin: "2%" }}>
 				{" "}
 				<img src={sanitaer} alt='Sanitär' className='imgx' />
-				<div className='hovered'>
-					<h2>Sanitär</h2>
+				<div className='hovered ll'>
+					<h2 className='centered'>Sanitär</h2>
 					<ul style={{ color: "black" }}>
 						<li>
 							Neubau und Sanierung von sanitären Anlagen in Wohnhäusern,
@@ -37,8 +37,8 @@ export const Leistungen = () => {
 
 			<Box style={{ margin: "2%" }}>
 				<img src={lueftung} alt='Lüftung' className='imgx' />
-				<div className='hovered'>
-					<h2>Lüftung</h2>
+				<div className='hovered ll'>
+					<h2 className='centered'>Lüftung</h2>
 					<ul style={{ color: "black" }}>
 						<li>Einzelraumlüftungen</li>
 
@@ -62,8 +62,8 @@ export const Leistungen = () => {
 			</Box>
 			<Box style={{ margin: "2%" }}>
 				<img src={heizung} alt='Heizung' className='imgx' />
-				<div className='hovered'>
-					<h2>Heizung</h2>
+				<div className='hovered ll'>
+					<h2 className='centered'>Heizung</h2>
 					<ul style={{ color: "black" }}>
 						<li>
 							Austausch veralteter Kesselanlagen (gesetzliche Förderung seit
@@ -84,8 +84,8 @@ export const Leistungen = () => {
 			</Box>
 			<Box style={{ margin: "2%" }}>
 				<img src={kaelte} alt='Kälte' className='imgx' />
-				<div className='hovered'>
-					<h2>Kälte</h2>
+				<div className='hovered ll'>
+					<h2 className='centered'>Kälte</h2>
 					<ul style={{ color: "black" }}>
 						<li>Implementierung von Kühlern in Lüftungsanlagen</li>
 						<li>Kühlung von Rechnerräumen</li>
@@ -98,8 +98,8 @@ export const Leistungen = () => {
 			</Box>
 			<Box style={{ margin: "2%" }}>
 				<img src={klima} alt='Klima' className='imgx' />
-				<div className='hovered'>
-					<h2>Klima</h2>
+				<div className='hovered ll'>
+					<h2 className='centered'>Klima</h2>
 					<ul style={{ color: "black" }}>
 						<li>Implementierung von Kühlern in Lüftungsanlagen</li>
 						<li>Kühlung von Rechnerräumen</li>
