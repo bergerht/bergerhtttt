@@ -9,6 +9,7 @@ export const link = {
 	},
 	"&::first-letter": {
 		visibility: "hidden",
+		display: "none",
 	},
 };
 

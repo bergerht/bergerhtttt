@@ -39,6 +39,7 @@ export const NavLink = forwardRef(function NavLink({ item, ...props }, ref) {
 				{...props}
 				to={to}
 				sx={styles.link}
+				className='f'
 				activeClassName='active'
 				ref={ref}
 			/>

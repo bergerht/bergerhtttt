@@ -23,6 +23,12 @@
 	left: 50%;
 	transform: translateX(-50%);
 }
+@media only screen and (max-width: 768px) {
+	.ll {
+		width: 90%;
+		margin-right: 10%;
+	}
+}
 
 .imgx {
 	width: 100%;
