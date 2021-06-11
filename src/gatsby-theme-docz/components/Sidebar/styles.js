@@ -49,3 +49,66 @@ export const wrapper = ({ open }) => ({
 		transform: open ? "translateX(0)" : "translateX(-100%)",
 	},
 });
+
+export const link = {
+	my: 2,
+	display: "block",
+	color: "sidebar.navGroup",
+	textDecoration: "none",
+	fontSize: 1,
+	"&.active": {
+		color: "sidebar.navLinkActive",
+	},
+};
+
+export const smallLink = {
+	...link,
+	ml: 3,
+	fontSize: 0.9,
+	position: "relative",
+	color: "sidebar.tocLink",
+	"&.active": {
+		color: "sidebar.tocLinkActive",
+	},
+	"&.active::before": {
+		content: '""',
+		position: "absolute",
+		display: "block",
+		top: "2px",
+		left: -2,
+		height: "1rem",
+		backgroundColor: "primary",
+		transition: "width 200ms ease 0s",
+		width: "2px",
+		borderRadius: 1,
+	},
+};
+
+// export const wrapper = {
+// 	my: 3,
+// };
+
+export const sublinkWrapper = {
+	ml: 2,
+};
+
+export const title = {
+	mb: 1,
+	fontSize: 2,
+	fontWeight: 500,
+	color: "sidebar.navGroup",
+	cursor: "pointer",
+	display: "flex",
+	justifyContent: "space-between",
+	alignItems: "center",
+};
+
+export const chevron = ({ active }) => ({
+	ml: 1,
+	flexShrink: 0,
+	alignSelf: "baseline",
+	transform: `rotateX(${active ? 180 : 0}deg)`,
+	transformOrigin: "center",
+	transition: "transform .3s ease-in-out",
+	color: "sidebar.navLinkActive",
+});
