@@ -4,8 +4,9 @@ export const container = {
 	backgroundColor: "background",
 	position: "relative",
 	maxWidth: 960,
-	py: 5,
-	px: 4,
+	py: 0,
+	px: 0,
+
 	variant: "styles.Container",
 	[media.tablet]: {
 		py: 4,

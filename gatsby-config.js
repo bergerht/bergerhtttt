@@ -7,6 +7,8 @@ module.exports = {
 				modulePath: `../src/cms/cms.js`, // This needs to be relative to the .docz directory
 			},
 		},
+		"react-pro-sidebar",
+		`gatsby-plugin-sass`,
 		{
 			resolve: `gatsby-plugin-google-gtag`,
 			options: {

@@ -9,6 +9,7 @@ import { Sidebar } from "../Sidebar";
 import { MainContainer } from "../MainContainer";
 import * as styles from "./styles";
 import CookieConsent from "react-cookie-consent";
+import "./custom.scss";
 
 export const Layout = ({ children }) => {
 	const [open, setOpen] = useState(false);
