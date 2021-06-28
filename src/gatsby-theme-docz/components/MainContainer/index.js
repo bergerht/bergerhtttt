@@ -6,9 +6,9 @@ import * as styles from "./styles";
 export const MainContainer = ({ children, handleToggleSidebar, ...rest }) => {
 	return (
 		<Container sx={styles.container} {...rest} style={{ padding: "5%" }}>
-			{/* <div className='btn-toggle' onClick={() => handleToggleSidebar(true)}>
+			<div className='btn-toggle' onClick={() => handleToggleSidebar(true)}>
 				test
-			</div> */}
+			</div>
 			{children}
 		</Container>
 	);
