@@ -1,12 +1,9 @@
 var plugins = [{
-      plugin: require('/Users/annika/Dropbox/Arbeit/wischn/05_code/bergerhtttt/node_modules/gatsby-plugin-react-helmet/gatsby-ssr'),
-      options: {"plugins":[]},
-    },{
       plugin: require('/Users/annika/Dropbox/Arbeit/wischn/05_code/bergerhtttt/node_modules/gatsby-plugin-google-gtag/gatsby-ssr'),
       options: {"plugins":[],"trackingIds":["G-0RMN59H4VC"],"gtagConfig":{"anonymize_ip":true,"cookie_expires":350},"pluginConfig":{"head":false,"respectDNT":true,"exclude":["/preview/**","/do-not-track/me/too/"]}},
     },{
       plugin: require('/Users/annika/Dropbox/Arbeit/wischn/05_code/bergerhtttt/node_modules/gatsby-plugin-mdx/gatsby-ssr'),
-      options: {"plugins":[],"extensions":[".md",".mdx"],"remarkPlugins":[[null,{"type":"yaml","marker":"-"}],null],"rehypePlugins":[null,null],"gatsbyRemarkPlugins":[],"defaultLayouts":{"default":"/Users/annika/Dropbox/Arbeit/wischn/05_code/bergerhtttt/node_modules/gatsby-theme-docz/src/base/Layout.js"},"lessBabel":false,"mediaTypes":["text/markdown","text/x-markdown"]},
+      options: {"plugins":[],"extensions":[".md",".mdx"],"remarkPlugins":[[null,{"type":"yaml","marker":"-"}],null],"rehypePlugins":[null,null],"gatsbyRemarkPlugins":[],"defaultLayouts":{"default":"/Users/annika/Dropbox/Arbeit/wischn/05_code/bergerhtttt/node_modules/gatsby-theme-docz/src/base/Layout.js"},"lessBabel":false,"mediaTypes":["text/markdown","text/x-markdown"],"root":"/Users/annika/Dropbox/Arbeit/wischn/05_code/bergerhtttt"},
     },{
       plugin: require('/Users/annika/Dropbox/Arbeit/wischn/05_code/bergerhtttt/node_modules/gatsby-plugin-react-helmet-async/gatsby-ssr'),
       options: {"plugins":[]},

@@ -5,7 +5,6 @@ import { jsx, Box } from 'theme-ui'
 import { useMenus, useCurrentDoc } from 'docz'
 
 import * as styles from './styles'
-import { NavSearch } from '../NavSearch'
 import { NavLink } from '../NavLink'
 import { NavGroup } from '../NavGroup'
 

@@ -11,6 +11,7 @@ export const container = {
 	[media.tablet]: {
 		py: 4,
 		px: 4,
-		pt: 5,
+		// pt: 5,
+		paddingTop: '20px',
 	},
 };

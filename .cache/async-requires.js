@@ -2,7 +2,6 @@
 const preferDefault = m => (m && m.default) || m
 
 exports.components = {
-  "component---cache-dev-404-page-js": () => import("./../../dev-404-page.js" /* webpackChunkName: "component---cache-dev-404-page-js" */),
   "component---docs-autohaeuser-mdx": () => import("./../../../docs/Autohaeuser.mdx" /* webpackChunkName: "component---docs-autohaeuser-mdx" */),
   "component---docs-banken-mdx": () => import("./../../../docs/Banken.mdx" /* webpackChunkName: "component---docs-banken-mdx" */),
   "component---docs-datenschutz-mdx": () => import("./../../../docs/Datenschutz.mdx" /* webpackChunkName: "component---docs-datenschutz-mdx" */),
