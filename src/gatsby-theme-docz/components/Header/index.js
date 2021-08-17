@@ -9,8 +9,8 @@ import { Logo } from "../Logo";
 export const Header = (props) => {
 	const { onOpen } = props;
 	const {
-		repository,
-		themeConfig: { showDarkModeSwitch, showMarkdownEditButton },
+		
+		themeConfig: {  showMarkdownEditButton },
 	} = useConfig();
 	const { edit = true, ...doc } = useCurrentDoc();
 	const [colorMode, setColorMode] = useColorMode();
@@ -28,17 +28,7 @@ export const Header = (props) => {
 			</Box>
 			<div sx={styles.innerContainer}>
 				<Logo />
-				{/* <Flex>
-					{showDarkModeSwitch && (
-						<button
-							sx={styles.headerButton}
-							onClick={toggleColorMode}
-							aria-label={`Switch to ${colorMode} mode`}
-						>
-							<Sun size={15} />
-						</button>
-					)}
-				</Flex> */}
+				
 				{showMarkdownEditButton && edit && doc.link && (
 					<a
 						sx={styles.editButton}

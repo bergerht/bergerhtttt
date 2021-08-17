@@ -1,12 +1,12 @@
 import * as mixins from "~utils/mixins";
 import { media } from "~theme/breakpoints";
-import { auto } from "@popperjs/core";
+
 
 export const wrapper = {
 	bg: "header.bg",
 	position: "relative",
 
-	zIndex: 1,
+	zIndex: 5,
 	// borderBottom: (t) => `1px solid ${t.colors.border}`,
 };
 

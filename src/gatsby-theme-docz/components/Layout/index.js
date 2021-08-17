@@ -9,7 +9,8 @@ import { Sidebar } from "../Sidebar";
 import { MainContainer } from "../MainContainer";
 import * as styles from "./styles";
 import CookieConsent from "react-cookie-consent";
-import "./custom.scss";
+import { Helmet } from "react-helmet"
+
 
 export const Layout = ({ children }) => {
 	const [open, setOpen] = useState(false);
@@ -17,6 +18,11 @@ export const Layout = ({ children }) => {
 
 	return (
 		<BaseLayout sx={{ "& > div": { flex: "1 1 auto" } }} data-testid='layout'>
+			<Helmet>
+          <meta charSet="utf-8" />
+          <title>Berger Haustechnik</title>
+          <description>Berger Haustechnik ist seit über 100 Jahren ihr vertrauensvoller und zuverlässiger Partner in der Region. Wir stehen Ihnen mit großem Erfahrungsschatz, etlichen zufriedenen Kunden und stets höchster Qualität zur Seite.</description>
+        </Helmet>
 			<Global styles={global} />
 			<Main sx={styles.main}>
 				<Header onOpen={() => setOpen((s) => !s)} />

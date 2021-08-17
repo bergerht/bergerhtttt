@@ -1,2 +1,154 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&display=swap");
 /* @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;500&display=swap'); */
+
+
+td > a {
+    color: #cd0000;
+    
+
+}
+
+
+.tdc {
+    text-align: center;
+    width: 33,33%;
+    height: auto;
+}
+
+.tdr {
+    text-align: right;
+    width: 33,33%;
+    height: auto;
+}
+
+
+.tdl {
+    text-align: left;
+    width: 33,33%;
+  height: auto;
+
+} 
+
+/* Fixed sidenav, full height */
+.sidenav {
+  /* height: 100%; */
+  /* width: 300px; */
+  /* position: fixed; */
+  z-index: 1;
+  /* top: 0;
+  left: 0; */
+  border-right: #caff70 1px solid;
+  /* background-color: #ffffff;
+  overflow-x: auto; */
+  /* padding-top: 120px; */
+}
+
+/* Style the sidenav links and the dropdown button */
+.sidenav a, .dropdown-btn {
+  padding: 6px 8px 6px 16px;
+  /* padding: 12px; */
+  line-height: 1;
+  padding-left: 10px;
+  /* margin: 10px; */
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  color: black;
+  display: block;
+  border: none;
+  font-size: 18px ;
+  background: none;
+  width:100%;
+  text-align: left;
+   cursor: pointer;
+  outline: none; 
+}
+
+/* On mouse-over */
+/* .sidenav a:hover, .dropdown-btn:hover {
+  color: #262626;
+} */
+
+/* Main content */
+/* .main {
+  margin-left: 200px; 
+  
+  padding: 0px 10px;
+} */
+
+.angle {
+  height: 15px; 
+  width: 15px; 
+  margin-left: 5px;
+}
+
+/* Add an active class to the active dropdown button */
+.active {
+  color: black;
+  font-weight: 600;
+}
+
+/* Dropdown container (hidden by default). Optional: add a lighter background color and some left padding to change the design of the dropdown content */
+.dropdown-container {
+  display: none;
+  padding-left: 8px;
+}
+
+
+
+
+
+
+/* Basis Styling */
+
+
+.hamburger-icon-container {
+  color:red;
+  height: 1.7em;
+  width: 1.7em;
+  position: relative;
+  cursor: pointer;
+  background: currentColor;
+  border:10px solid currentColor;
+  border-radius: 3px;
+}
+
+.hamburger-icon,
+.hamburger-icon:before,
+.hamburger-icon:after {
+  content: '';
+  position: absolute;
+  height: 3px;
+  width: 1.7em;
+  background: white;
+  transition: all .2s ease;
+}
+
+.hamburger-icon {
+  top: 0.75em
+}
+
+.hamburger-icon:before {
+  top: -0.55em
+}
+
+.hamburger-icon:after {
+  top: 0.55em
+}
+
+
+.btn-toggled {
+    cursor: pointer;
+    width: 35px;
+    height: 35px;
+    background: #353535 ;
+    color: #fff;
+    text-align: center;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    display: none;
+    z-index: 10;
+    padding-top: 150px;
+  }

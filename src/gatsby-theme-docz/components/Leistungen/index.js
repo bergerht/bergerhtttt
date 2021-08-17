@@ -5,7 +5,6 @@ import kaelte from "./kaelte.svg";
 import klima from "./klima.svg";
 import lueftung from "./lueftung.svg";
 import sanitaer from "./trinkwasser.svg";
-import sani from "./bathroom.jpg";
 import "../Kontakt/style.css";
 
 export const Leistungen = () => {

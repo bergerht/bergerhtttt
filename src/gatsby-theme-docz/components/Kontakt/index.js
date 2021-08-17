@@ -8,13 +8,13 @@ import strich from "./strich_kontakt.svg";
 import { Flex, Box } from "theme-ui";
 import React from "react";
 import "./style.css";
-import * as styles from "./styles";
+
 
 export const Kontakt = () => {
 	return (
 		<div>
 			<Flex
-				sx={{
+				style={{
 					// alignItems: "center",
 					justifyContent: "center",
 					padding: "2% 0%",

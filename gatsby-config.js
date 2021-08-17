@@ -9,6 +9,7 @@ module.exports = {
 		},
 		"react-pro-sidebar",
 		`gatsby-plugin-sass`,
+		`gatsby-plugin-react-helmet`,
 		{
 			resolve: `gatsby-plugin-sass`,
 			options: {
