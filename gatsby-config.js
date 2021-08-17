@@ -4,7 +4,7 @@ module.exports = {
 			resolve: `gatsby-plugin-netlify-cms`,
 			options: {
 				manualInit: true,
-				modulePath: `./src/cms/cms.js`, // This needs to be relative to the .docz directory
+				modulePath: `./cms.js`, // This needs to be relative to the .docz directory
 		// 		 customizeWebpackConfig: (config, { stage, plugins }) => {
         //   config.resolve = {
         //     ...config.resolve,
