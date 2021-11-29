@@ -5,6 +5,7 @@ const preferDefault = m => (m && m.default) || m
 
 
 exports.components = {
+  "component---cache-dev-404-page-js": hot(preferDefault(require("/Users/annika/Dropbox/Arbeit/wischn/05_code/bergerhtttt/.cache/dev-404-page.js"))),
   "component---docs-autohaeuser-mdx": hot(preferDefault(require("/Users/annika/Dropbox/Arbeit/wischn/05_code/bergerhtttt/docs/Autohaeuser.mdx"))),
   "component---docs-banken-mdx": hot(preferDefault(require("/Users/annika/Dropbox/Arbeit/wischn/05_code/bergerhtttt/docs/Banken.mdx"))),
   "component---docs-datenschutz-mdx": hot(preferDefault(require("/Users/annika/Dropbox/Arbeit/wischn/05_code/bergerhtttt/docs/Datenschutz.mdx"))),

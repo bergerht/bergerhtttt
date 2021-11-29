@@ -11,7 +11,6 @@ import * as styles from "./styles";
 import CookieConsent from "react-cookie-consent";
 // import { Helmet } from "react-helmet"
 
-
 export const Layout = ({ children }) => {
 	const [open, setOpen] = useState(false);
 	const nav = useRef();
@@ -42,7 +41,7 @@ export const Layout = ({ children }) => {
 					location='bottom'
 					style={{
 						background: "white",
-						borderTop: "2px solid #c9d75a",
+						borderTop: "2px solid #caff70",
 						alignItems: "center",
 						fontSize: "10px",
 						justifyContent: "center",
@@ -52,7 +51,7 @@ export const Layout = ({ children }) => {
 					}}
 					buttonText='Zustimmen'
 					buttonStyle={{
-						backgroundColor: "#c9d75a",
+						backgroundColor: "#caff70",
 						color: "black",
 						boxShadow: "0 0 5px #cccccc",
 
@@ -64,8 +63,8 @@ export const Layout = ({ children }) => {
 					declineButtonText='Ablehnen'
 					declineButtonStyle={{
 						background: "white",
-						border: "solid #c9d75a 1px",
-						color: "#c9d75a",
+						border: "solid #caff70 1px",
+						color: "#caff70",
 						fontSize: "13px",
 						padding: "10px",
 

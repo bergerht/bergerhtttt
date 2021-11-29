@@ -4,28 +4,28 @@ module.exports = {
 			resolve: `gatsby-plugin-netlify-cms`,
 			options: {
 				manualInit: true,
-				 modulePath: `../src/cms/cms.js`, // for custom preview in the Netlify CMS
-        		customizeWebpackConfig: (config) => (config.node.fs = 'empty'),
+				modulePath: `./src/cms/cms.js`, // for custom preview in the Netlify CMS
+				customizeWebpackConfig: (config) => (config.node.fs = "empty"),
 				// modulePath: `./cms.js`, // This needs to be relative to the .docz directory
-		// 		 customizeWebpackConfig: (config, { stage, plugins }) => {
-        //   config.resolve = {
-        //     ...config.resolve,
-        //     alias: {
-        //       ...config.resolve.alias,
-        //       path: require.resolve("path-browserify")
-        //     },
-        //     fallback: {
-        //       ...config.resolve.fallback,
-        //       fs: false,
-        //       child_process: false,
-        //       module: false
-        //     }
-        //   };
-        //   if (stage === "build-javascript" || stage === "develop") {
-        //     config.plugins.push(plugins.provide({ process: "process/browser" }));
-        //   }
-        //   config.plugins.push(plugins.provide({ Buffer: ["buffer", "Buffer"] }));
-        // },
+				// 		 customizeWebpackConfig: (config, { stage, plugins }) => {
+				//   config.resolve = {
+				//     ...config.resolve,
+				//     alias: {
+				//       ...config.resolve.alias,
+				//       path: require.resolve("path-browserify")
+				//     },
+				//     fallback: {
+				//       ...config.resolve.fallback,
+				//       fs: false,
+				//       child_process: false,
+				//       module: false
+				//     }
+				//   };
+				//   if (stage === "build-javascript" || stage === "develop") {
+				//     config.plugins.push(plugins.provide({ process: "process/browser" }));
+				//   }
+				//   config.plugins.push(plugins.provide({ Buffer: ["buffer", "Buffer"] }));
+				// },
 			},
 		},
 		{
@@ -56,6 +56,5 @@ module.exports = {
 			},
 		},
 		"gatsby-theme-docz",
-		
 	],
 };
